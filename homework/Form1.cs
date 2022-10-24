@@ -10,8 +10,6 @@ namespace homework
         private void button1_Click(object sender, EventArgs e)
         {
             
-
-            //string strEnd;
             int iEnd, iSum, iCounter, strEnd;
             strEnd = Convert.ToInt32(n1.Text);
             iEnd = Convert.ToInt32(n2.Text);
@@ -20,8 +18,7 @@ namespace homework
             while (iCounter <= iEnd)
             {
                 iSum = iSum + iCounter;
-                iCounter = iCounter + 1; // alternatively you can write iCounter ++
-               // lblOutput_loop.Text = iCounter.ToString();
+                iCounter = iCounter + 1;  
             }
                  
             lblOutput.Text = iSum.ToString();
